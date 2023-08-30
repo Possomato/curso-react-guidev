@@ -1,10 +1,11 @@
 import React from "react"
 
-export function PrimeiroComponente() {
+export function PrimeiroComponente({titleLabel}) {
   return(
     <div>
+      <label>{titleLabel}</label>
       <input />
-      <h1>aii zé da manga</h1>
+      <h1>Preencha o formulário</h1>
     </div>
   )
 }
